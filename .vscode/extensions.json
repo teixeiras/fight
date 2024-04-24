@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "aaron-bond.better-comments",
+        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-extension-pack",
+        "xaver.clang-format",
+        "spencerwmiles.vscode-task-buttons",
+        "ms-vscode.cpptools-themes",
+        "iliazeus.vscode-ansi"
+    ]
+}

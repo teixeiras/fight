@@ -1,2 +1,2 @@
 AUTOMAKE_OPTIONS = subdir-objects
-SUBDIRS = arena/src
+SUBDIRS = libRobot/src arena/src bots/teixeirinha/
