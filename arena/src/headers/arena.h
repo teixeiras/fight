@@ -8,7 +8,10 @@
 // files
 // using namespace robot_fight; don't make using on headers
 
-class Cell {};
+class Cell {
+   public:
+    char toChar();
+};
 class Arena {
     // since we are out of namespace, we need to refer the namespace
     std::list<std::shared_ptr<robot_fight::Robot>> robots;

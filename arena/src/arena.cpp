@@ -27,3 +27,6 @@ bool Arena::isValid(std::shared_ptr<robot_fight::Robot> robot) {
 }
 void Arena::GenerateBoard() {}
 void Arena::Cycle() {}
+char Cell::toChar() {
+    return '0';
+}

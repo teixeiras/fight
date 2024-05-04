@@ -1,4 +1,5 @@
-arena-arena.o: arena.cpp /usr/include/stdc-predef.h headers/arena.h \
+libteixeirinha_la-teix_robot.lo: teix_robot.cpp \
+ /usr/include/stdc-predef.h teix_robot.h \
  ../../libRobot/public_headers/robot.h /usr/include/c++/13.2.1/iostream \
  /usr/include/c++/13.2.1/bits/requires_hosted.h \
  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -165,10 +166,9 @@ arena-arena.o: arena.cpp /usr/include/stdc-predef.h headers/arena.h \
  /usr/include/c++/13.2.1/bits/node_handle.h \
  /usr/include/c++/13.2.1/bits/stl_map.h \
  /usr/include/c++/13.2.1/bits/stl_multimap.h \
- /usr/include/c++/13.2.1/bits/erase_if.h /usr/include/dlfcn.h \
- /usr/include/bits/dlfcn.h /usr/include/bits/dl_find_object.h
+ /usr/include/c++/13.2.1/bits/erase_if.h
 /usr/include/stdc-predef.h:
-headers/arena.h:
+teix_robot.h:
 ../../libRobot/public_headers/robot.h:
 /usr/include/c++/13.2.1/iostream:
 /usr/include/c++/13.2.1/bits/requires_hosted.h:
@@ -391,6 +391,3 @@ headers/arena.h:
 /usr/include/c++/13.2.1/bits/stl_map.h:
 /usr/include/c++/13.2.1/bits/stl_multimap.h:
 /usr/include/c++/13.2.1/bits/erase_if.h:
-/usr/include/dlfcn.h:
-/usr/include/bits/dlfcn.h:
-/usr/include/bits/dl_find_object.h:

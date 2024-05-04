@@ -44,8 +44,6 @@ void ParseArguments(int argc, char** argv, Arena& arena) {
             std::cout << "Parameter " << shortName << std::endl;
 
             if (shortName == "r") {
-                std::cout << "Loading robot from " << std::endl;
-
                 if (argc >= i + 1) {
                     std::string robotPath(argv[i + 1]);
                     std::cout << "Loading robot from " << robotPath << std::endl;
@@ -57,7 +55,7 @@ void ParseArguments(int argc, char** argv, Arena& arena) {
                 std::cout << "Options:\n";
                 for (auto params : parameters) { std::cout << " -" << std::get<0>(params) << ", --" << std::get<1>(params) << " " << std::get<3>(params); }
             }
-            *first++;
+            first++;
         }
     }
 }

@@ -5,6 +5,8 @@
 #include <iostream>
 #include <memory>
 #include <vector>
+
+#include "arena.h"
 class Screen {
     static std::shared_ptr<WINDOW> logs;
     static std::shared_ptr<WINDOW> board;
@@ -17,4 +19,5 @@ class Screen {
     static void Initialize();
     static void UpdateScreenSize();
     static void WaitForInput();
+    static void drawMap(Cell array[], int row_max, int col_max);
 };

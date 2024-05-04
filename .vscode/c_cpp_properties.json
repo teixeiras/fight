@@ -7,14 +7,13 @@
                 "${workspaceFolder}/libRobot/public_headers/**",
                 "${workspaceFolder}/**",
                 "${default}"
-                
             ],
             "defines": [],
             "cStandard": "c20",
             "cppStandard": "gnu++20",
             "intelliSenseMode": "linux-gcc-x64",
             "configurationProvider": "ms-vscode.cpptools",
-            "compilerPath": "/usr/bin/gcc"
+            "compilerPath": "/usr/bin/g++"
         }
     ],
     "version": 4
